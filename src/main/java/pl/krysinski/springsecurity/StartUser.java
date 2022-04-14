@@ -17,10 +17,6 @@ public class StartUser {
         this.passwordEncoder = passwordEncoder;
         this.appUserRepo = appUserRepo;
 
-//        AppUser appUser = new AppUser();
-//        appUser.setUsername("Admin");
-//        appUser.setPassword(passwordEncoder.encode("Admin123"));
-//        appUser.setIsEnabled(true);
-//        appUserRepo.save(appUser);
+
     }
 }

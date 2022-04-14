@@ -49,6 +49,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .formLogin().loginPage("/login").defaultSuccessUrl("/forUser").permitAll()
                 .and()
-                .logout().logoutSuccessUrl("/logout");
+                .logout().logoutSuccessUrl("/logout")
+                .and()
+                .rememberMe().tokenValiditySeconds(86000).rememberMeCookieName("remeber");
     }
 }
