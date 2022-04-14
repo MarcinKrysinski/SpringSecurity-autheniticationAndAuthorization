@@ -1,4 +1,4 @@
-package pl.krysinski.springsecurity;
+package pl.krysinski.springsecurity.entity;
 
 import lombok.Getter;
 import lombok.Setter;
